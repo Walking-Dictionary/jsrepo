@@ -70,5 +70,5 @@ document.getElementById("but3").onclick = function() {alert("working")};
 
 AssignEvent();
 FireEvent();
-HandleEvent(SpecialEvent);
+HandleEvent("SpecialEvent");
 
