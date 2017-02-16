@@ -1,3 +1,4 @@
+
 /*/ a promise constructor sets resolve and reject conditions
 var myPromise = new Promise(function(resolve, reject){
 
@@ -6,7 +7,6 @@ var myPromise = new Promise(function(resolve, reject){
 	else
 		{reject(err());}
 });
-  // .then method takes to arguments, success and failure funtion
 myPromise.then( function(result){console.log(result);}, function(err){console.log(err);});/*/
 
 'use strict';
@@ -58,3 +58,5 @@ function testPromise() {
   log = document.getElementById('log');
   log.innerHTML = "Live example not available as your browser doesn't support the <code>Promise<code> interface.";
 }
+
+myPromise.then( function(result){console.log(result);}, function(err){console.log(err);});
